@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explorer | Find Developers & Projects</title>
+    <meta name="description" content="Explore GitHub profiles, discover amazing projects, and connect with developers worldwide">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <div class="logo-section">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </div>
+                <div class="header-text">
+                    <h1>GitHub Explorer</h1>
+                    <p class="tagline">Uncover the code behind amazing developers</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-box">
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="usernameInput" 
+                            placeholder="Search GitHub username..."
+                            aria-label="Enter GitHub username to search"
+                        >
+                        <button id="searchBtn" class="search-button">
+                            <span class="button-text">Explore</span>
+                            <span class="button-icon">🔍</span>
+                        </button>
+                    </div>
+                    <button id="clearHistoryBtn" class="clear-history-btn">
+                        <span>Clear History</span>
+                    </button>
+                </div>
+                
+                <!-- Quick Suggestions -->
+                <div class="suggestions">
+                    <span class="suggestion-label">Try these:</span>
+                    <button class="suggestion-btn" data-user="microsoft">microsoft</button>
+                    <button class="suggestion-btn" data-user="facebook">facebook</button>
+                    <button class="suggestion-btn" data-user="google">google</button>
+                    <button class="suggestion-btn" data-user="torvalds">torvalds</button>
+                </div>
+            </section>
+
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading-spinner" aria-live="polite">
+                <div class="spinner"></div>
+                <p class="loading-text">Discovering amazing code...</p>
+            </div>
+
+            <!-- Search History -->
+            <section id="history" class="history-section" aria-live="polite">
+                <!-- Dynamic content will be inserted here -->
+            </section>
+
+            <!-- Profile Display -->
+            <section id="profile" class="profile-section" aria-live="polite">
+                <!-- Dynamic content will be inserted here -->
+            </section>
+
+            <!-- Repositories Display -->
+            <section id="repos" class="repos-section" aria-live="polite">
+                <!-- Dynamic content will be inserted here -->
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Powered by GitHub API • Made with passion for the developer community</p>
+                    <p class="footer-links">
+                        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                        <span class="separator">•</span>
+                        <a href="https://docs.github.com/en/rest" target="_blank" rel="noopener">API Docs</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
