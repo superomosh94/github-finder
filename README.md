@@ -1,5 +1,6 @@
-```markdown
-# GitHub Finder 🔍
+
+###
+ GitHub Finder 🔍
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/superomosh94/github-finder)](https://github.com/superomosh94/github-finder/stargazers)
@@ -68,7 +69,7 @@ A comprehensive web application for searching and exploring GitHub users and the
    ```bash
    git clone https://github.com/superomosh94/github-finder.git
    cd github-finder
-   ```
+
 
 2. **Install Dependencies**
    ```bash
