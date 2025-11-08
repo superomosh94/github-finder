@@ -10,7 +10,7 @@
 
 A comprehensive web application for searching and exploring GitHub users and their repositories. Built with a clean, modern interface that provides detailed insights into GitHub profiles and coding activities.
 
-![GitHub Finder Demo](https://via.placeholder.com/800x400/2d3748/ffffff?text=GitHub+Finder+Demo+Screenshot)
+
 
 ## 🌟 Key Features
 
@@ -317,10 +317,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The open-source community for inspiration and best practices
 
 ---
-
 **⭐ If you find this project helpful, please consider giving it a star on GitHub!**
-
-
-
-
 ```
